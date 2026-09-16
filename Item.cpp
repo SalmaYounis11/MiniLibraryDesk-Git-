@@ -46,6 +46,11 @@ void Item::display() const
     std::cout << std::endl;
 }
 
+std::string Item::toCsv() const
+{
+    return "";
+}
+
 Item::~Item()
 {
 }

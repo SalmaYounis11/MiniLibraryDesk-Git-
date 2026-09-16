@@ -20,5 +20,7 @@ public:
     void giveBack();
 
     virtual void display() const;
+    virtual std::string toCsv() const;
+
     virtual ~Item();
 };

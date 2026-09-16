@@ -14,5 +14,5 @@ public:
 
     void display() const override;
 
-    std::string toCsv() const;
+    std::string toCsv() const override;
 };
